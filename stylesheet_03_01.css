@@ -1,0 +1,12 @@
+.kotak {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(41, 229, 160);
+  display: flex; /* Mengaktifkan Flexbox */
+  justify-content: center; /* Menengahkan teks secara horizontal */
+  align-items: center; /* Menengahkan teks secara vertikal */
+  padding: 10px;
+  margin: 20px;
+  border: 5px solid black;
+  text-align: center;
+}
