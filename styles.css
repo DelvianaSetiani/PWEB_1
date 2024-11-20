@@ -1,0 +1,165 @@
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+/* Header Styling */
+header {
+  background-color: #222; /* Darker gray header */
+  color: #fff; /* White text */
+  padding: 2em 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigation Styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #f74b8a; /* Pink on hover */
+}
+
+/* Main Content Styling */
+main {
+  padding: 2em;
+}
+
+/* Section Headings */
+h3 {
+  color: #6f6b6b;
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+/* Paragraph Styling */
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+/* Biodata Card Styling */
+.kotak {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em; /* Space between cards */
+}
+
+/* Individual Biodata Card */
+.kartu {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.kartu:hover {
+  transform: translateY(-5px);
+}
+
+.kartu img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1.5em;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8em;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333333; /* Light pink background */
+  color: #efefef; /* Dark text */
+  padding: 2em 0;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.footer-logo {
+  margin: 20px 0; /* Space above and below the logo */
+}
+
+/* Social Links Styling */
+.social-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items */
+  margin: 10px 0; /* Margin around the list */
+}
+
+.social-links li {
+  margin: 0 15px; /* Space between icons */
+}
+
+.social-links img {
+  width: 20px; /* Set icon size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Contact Info Styling */
+.contact-info {
+  margin-top: 10px; /* Space above contact info */
+  font-size: 14px; /* Smaller font size */
+  color: #6c757d; /* Gray color for text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .kotak {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center; /* Center cards */
+  }
+
+  .kartu {
+    width: 90%; /* Make cards responsive */
+  }
+
+  nav li {
+    margin: 0 0.5em; /* Reduce margin for smaller screens */
+  }
+}
