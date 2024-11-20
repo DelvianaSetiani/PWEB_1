@@ -1,0 +1,118 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background-color: #e8ff63;
+  color: black;
+  padding: 20px 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.address {
+  margin: 10px 0;
+}
+
+hr {
+  border: 1px solid yellow;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
+
+.program-image,
+.sertifikat-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.faculty-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.faculty-table,
+.faculty-table th,
+.faculty-table td {
+  border: 1px solid #dddddd;
+}
+
+.faculty-table th,
+.faculty-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+input,
+.searchInput {
+  width: 98%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e8ff63;
+  color: black;
+  position: relative;
+}
+
+.alumni-profile {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-profile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
